@@ -1,0 +1,9 @@
+{
+  "port": 8070,
+  "secrete": "some-secret",
+  "admin": {
+    "email": "admin@example.com",
+    "password": "password"
+  },
+  "proxy": "http://localhost:3000"
+}

@@ -1,0 +1,15 @@
+[package]
+name = "to-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+to-config = { version="0.1.0", path="../to-config"}
+to-auth = { version="0.1.0", path="../to-auth"}
+actix-web = "4"
+serde = { version = "1.0.91", features = ["derive"]}
+serde_json = { version = "1.0.91"}
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+regex = "1"
